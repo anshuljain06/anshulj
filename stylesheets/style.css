@@ -1,0 +1,24 @@
+/* @font-face {
+  font-family: 'Consolas';
+  src: url('/fonts/Consolas.woff');
+} */
+
+body {
+  padding: 20px 50px;
+  font-family: 'Consolas', Arial, Helvetica, sans-serif;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  /*padding: 10px;*/
+}
+
+a {
+  color: #00B7FF;
+}
