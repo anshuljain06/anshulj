@@ -26,10 +26,10 @@ function App() {
         </Route>
       </Switch>
       <Navigation />
-      <EmptyBox />
-      <EmptyBox />
-      <EmptyBox />
-      <ScrollToTopButton />
+      {/*<EmptyBox />*/}
+      {/*<EmptyBox />*/}
+      {/*<EmptyBox />*/}
+      {/*<ScrollToTopButton />*/}
     </div>
   );
 }
