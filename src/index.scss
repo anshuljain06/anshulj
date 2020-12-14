@@ -1,20 +1,26 @@
+html {
+  height: 100%;
+
+  .Body-Root {
+    height: 100%;
+  }
+}
+
 body {
   margin: 0;
   font-family: 'Consolas', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  padding: 20px 50px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .center {
   margin: auto;
-  width: 50%;
   text-align: center;
 }
