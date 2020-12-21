@@ -24,33 +24,4 @@ function Navigation(props) {
   );
 }
 
-function Navigation1(props) {
-  return (
-    <div className="Navigation">
-      <nav className="navbar navbar-expand-sm mt-auto">
-        <section className="Navigation-Section">
-          <div className="container-sm">
-            <div className="row Navigation-Row">
-              <div className="Navigation-Brand">
-                <Link to="/" className="navbar-brand">Anshul Jain</Link>
-              </div>
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon">=</span>
-              </button>
-              <div className="collapse navbar-collapse Navigation-NavButtons" id="navbarNav">
-                <div className="navbar-nav">
-                  <Link to="/" className={ "Navigation-Button nav-link" + (props.page === "AboutPage" ? " Navigation-Selected" : "")}>&lt;about&gt;</Link>
-                  <Link to="/last_page" className={ "Navigation-Button nav-link" + (props.page === "LastPage" ? " Navigation-Selected" : "")}>&lt;last page&gt;</Link>
-                  <Link to="/my_cv" className={ "Navigation-Button nav-link" + (props.page === "MyCVPage" ? " Navigation-Selected" : "")}>&lt;my cv&gt;</Link>
-                  <Link to="/contact" className={ "Navigation-Button nav-link" + (props.page === "ContactPage" ? " Navigation-Selected" : "")}>&lt;contact&gt;</Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </nav>
-    </div>
-  );
-}
-
 export default Navigation;
