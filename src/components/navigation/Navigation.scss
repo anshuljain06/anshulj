@@ -1,7 +1,36 @@
-.Navigation {   
+.Navigation {  
+    background-color: #DEDEDE;
+    
     a { 
         text-decoration: none;
-        color: #00B7FF;
-        padding: 0 5px;
+    }
+
+    @media (max-width: 991.98px) {
+        .Navigation-Container {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .Navigation-Active {
+        font-weight: bold;
+        color: #000000;
+    }
+
+    .Navigation-Brand {
+        font-weight: bold;
+        font-size: 2em;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .Navigation-NavButtons {
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    .Navigation-Navbar {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }

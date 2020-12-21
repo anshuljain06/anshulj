@@ -1,8 +1,11 @@
+import Navigation from "./../navigation/Navigation";
+
 function ContactPage(props) {
   return (
     <div className="ContactPage center">
-      <h1>[WORK IN PROGRESS]</h1>
-      <h3>contact</h3>
+      <Navigation page="ContactPage"/>
+      <h3>[WORK IN PROGRESS]</h3>
+      <h2>contact</h2>
     </div>
   );
 }

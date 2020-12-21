@@ -6,9 +6,7 @@ import EmptyBox from "./components/emptyBox/EmptyBox";
 import Footer from "./components/footer/Footer";
 import LastPage from "./components/lastPage/LastPage";
 import MyCVPage from "./components/myCVPage/MyCVPage";
-import Navigation from "./components/navigation/Navigation";
 import ScrollToTopButton from "./components/scrollToTopButton/ScrollToTopButton";
-import resumePDF from "./pdfs/Anshul_Jain_Resume.pdf";
 
 function App() {
   return (
@@ -22,17 +20,16 @@ function App() {
             <LastPage />
           </Route>
           <Route path="/my_cv">
-            <MyCVPage pdf={resumePDF} fileName="Anshul_Jain_Resume" />
+            <MyCVPage />
           </Route>
           <Route path="/">
             <AboutPage />
           </Route>
         </Switch>
-        <Navigation />
         {/*<EmptyBox />*/}
         {/*<EmptyBox />*/}
         {/*<EmptyBox />*/}
-        {/*<ScrollToTopButton />*/}
+        <ScrollToTopButton />
       </div>
       <div className="App-Footer">
         <Footer />

@@ -1,8 +1,11 @@
+import Navigation from "./../navigation/Navigation";
+
 function AboutPage(props) {
   return (
     <div className="AboutPage center">
-      <h1>[WORK IN PROGRESS]</h1>
-      <h3>about</h3>
+      <Navigation page="AboutPage"/>
+      <h3>[WORK IN PROGRESS]</h3>
+      <h2>about</h2>
     </div>
   );
 }

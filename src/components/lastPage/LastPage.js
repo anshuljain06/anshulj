@@ -1,8 +1,11 @@
+import Navigation from "./../navigation/Navigation";
+
 function LastPage(props) {
   return (
     <div className="LastPage center">
-      <h1>[WORK IN PROGRESS]</h1>
-      <h3>last page</h3>
+      <Navigation page="LastPage"/>
+      <h3>[WORK IN PROGRESS]</h3>
+      <h2>last page</h2>
     </div>
   );
 }
